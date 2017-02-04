@@ -1,0 +1,48 @@
+Updates:
+- Food inc
+	- Turbine
+- 2K games
+- Boston Port Mortum
+- http://www.bostonpostmortem.org/
+	- Menu Designs
+		- Tim + Kynan + Twins + Nandan ideas
+	- Art Update
+		- Twins + Kevin
+	- Level 1 art
+		- Open Field w/ pretty flowers, Mech Factory, Junkyard, On flying ship through city, Raining / Thunder city, Boss Office Room, Oriental Rooftop, Great wall of china, moon, UMass Lowell, Sonic/Kiddy theme town
+	- Button Mapping
+		- decide on how many buttons
+
+Level:
+Field
+Not windows screensaver thanks,
+Fleshed out drawing Tablet, maybe load into a scene
+
+Menu:
+	Nandans Tree Menu
+	Tims Menu
+
+
+HW:
+	Reference Art
+
+HW:
+Unity 5.5.1f
+Twins[1] = Nick
+	Level 1 work
+
+Twins[0] = Mike
+	Time
+
+Manoj:
+Screen Transitions
+Griffin:
+Post unity
+Facebook posts
+
+Tim
+Nandan:
+	Proper layout of menus
+Kynan:
+Kevin + Ramon:
+	Art sketches

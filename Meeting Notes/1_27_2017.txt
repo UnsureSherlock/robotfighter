@@ -1,0 +1,67 @@
+Fighter Game v1:
+Fatso - First fighter
+
+Street fighter - mechanics
+Unity Engine
+2D drawn - fighter
+2.5D for backgrounds
+
+Major things to work on:
+
+Landing Screen - Title "Press Start"
+	Start Menu - "1 person" "2 person" "options" "exit" "training" "credits screen"
+		Character Select -> brought here by 1 person / 2 person
+			Level Select / Stage Select / Arena Select / Col. Select
+				Stage 1
+					Win Screen -> "Rematch" "Change Characters" "Change Area" "Exit to Main Menu"
+		Options Menu -> Bindings, Resolution Size, Sounds (on/off/increase/decrease), windowed/ full screen, colorblind mode
+		Training Menu / Like Character Select
+			Training Stage -> shows buttons inputs / dmg output / Change vars like hp
+		Credits
+
+
+End product of semester:
+	Github page hosting the unity game
+
+Taking Dmg -> Different Colors / Effects to clearly show dmg
+
+Theme: Junk Robot Dojo
+
+Win conditions of fight:
+1 dies or time runs out and person with more health is winner
+	Sudden Death if tie -> Both Crit dmg'ed
+
+
+HW:
+Kevin - Flesh out Fatman front/side views
+Ramon - You and kevin seem to be doing something important
+Twins[0] - Sketches of Arenas / Stages
+
+Nandan - All sketch out menus at least 3 goal
+Tim - All sketch out menus at least 3 goal
+Twins[1] - All sketch out menus at least 3 goal
+Kynan - All sketch out menus at least 3 goal
+
+Griffin - Button class for remapping
+Manoj - Platformer movement
+
+ALSO:
+	JOIN TRELLO
+	FACEBOOK MESSEANGERASER
+	GITHUB REPO
+
+Workings:
+	Art:
+		Characters:
+			Animations:
+				Kevin
+				Ramon
+		Stages:
+			Twins[0] - Nick
+
+
+	Menus - system:
+		Twins[1] - Mike
+		Tim
+		Nandan
+		Kynan like the jelly
