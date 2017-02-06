@@ -1,0 +1,15 @@
+{
+	"left":"a",
+	"right":"d",
+	"up":"w",
+	"down":"s",
+
+	"attack1":"j",
+	"attack1":"k",
+	"attack1":"l",
+	"attack1":"i",
+
+	"block":"shift",
+
+	"pause_menu":"esc"
+}
