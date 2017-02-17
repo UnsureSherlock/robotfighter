@@ -1,9 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Fighter_Fatso.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollower.cs">
     <Files>
-      <File FileName="Assets/Scripts/Fighter_Fatso.cs" Line="82" Column="32" />
-      <File FileName="Assets/Scripts/Fighter.cs" Line="23" Column="11" />
+      <File FileName="Assets/Scripts/Fighter_Fatso.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Fighter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CameraFollower.cs" Line="38" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

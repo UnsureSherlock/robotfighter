@@ -7,7 +7,7 @@ public class CameraFollower : MonoBehaviour {
 	public Transform ent1;
 	public Transform ent2;
 
-	private float dampTime = 0.5f;
+	private float dampTime = 0.2f;
 	private float lowerLimit = -4f;
 	private float startsize;
 	private Vector3 velocity = Vector3.zero;
@@ -35,19 +35,14 @@ public class CameraFollower : MonoBehaviour {
 			if (destination.y < lowerLimit) {
 				destination.y = lowerLimit;
 			}
-			transform.position = Vector3.SmoothDamp(transform.position, destination, ref velocity, dampTime);
 
+			transform.position = Vector3.SmoothDamp(transform.position, destination, ref velocity, dampTime);
 
 			if (thiscam.orthographic)
 			{
-				// The camera's forward vector is irrelevant, only this size will matter
-				if (midpoint.x > startsize) {
-					thiscam.orthographicSize = midpoint.x;
-				} else if (midpoint.x < -startsize) {
-					thiscam.orthographicSize = -midpoint.x;
-				} else {
-					thiscam.orthographicSize = startsize;
-				}
+				float height = Mathf.Max(Mathf.Max((Mathf.Abs(ent2.position.x - ent1.position.x))/2,(Mathf.Abs(ent1.position.x - ent2.position.x)/2)));
+				height = Mathf.Max (height, startsize);
+				thiscam.orthographicSize = height;
 			}
 			
 		} else if (ent1 != null) {
@@ -59,6 +54,7 @@ public class CameraFollower : MonoBehaviour {
 			if (destination.y < lowerLimit) {
 				destination.y = lowerLimit;
 			}
+
 			transform.position = Vector3.SmoothDamp(transform.position, destination, ref velocity, dampTime);
 
 

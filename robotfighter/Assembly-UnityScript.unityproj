@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{28D9316B-7CAF-EC9C-C73E-BBAAAB315BE7}</ProjectGuid>
+    <ProjectGuid>{791C7675-3666-B455-9B48-BD4299085150}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -46,8 +46,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\SimpleJSON.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo00.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo01.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo02.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo03.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo04.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo05.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo06.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo07.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_Demo08.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_DemoPlaySound.js" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (JavaScript)\Scripts\GA_FREE_JS_OpenOtherScene.js" />
+     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
      <None Include="Assets\Resources\button_config.txt" />
+     <None Include="Assets\Fantasy Skybox FREE\Fog and Ambient reference.txt" />
+     <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\GE Common Assets\Readme.txt" />
+     <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -66,6 +81,16 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="GETween">
+ <HintPath>/Users/griffinnozell/git/robotfighter/robotfighter/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ </Reference>
+ <Reference Include="GUIAnimatorFREE">
+ <HintPath>/Users/griffinnozell/git/robotfighter/robotfighter/Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{28D9316B-7CAF-EC9C-C73E-BBAAAB315BE7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
