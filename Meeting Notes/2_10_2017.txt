@@ -1,0 +1,40 @@
+Game Dev Club (ง •̀_•́)ง
+
+link: https://github.com/gnozell/robotfighter
+facebook: https://www.facebook.com/groups/umlgamedev/
+
+Things to go over:
+	- Twins: not here but made a branch for level art
+	- Manoj Code update scene changing
+	- Music from Tavis
+	- Menus from Nandan / Tim /  Kynan
+	- Further Character Art by Kevin
+
+Basic Things:
+- Unity is the best game engine ever
+
+Landing Screen - Title "Press Start"
+	Start Menu - "1 person" "2 person" "options" "exit" "training" "credits screen"
+		Character Select -> brought here by 1 person / 2 person
+			Level Select / Stage Select / Arena Select / Col. Select
+				Stage 1
+					Win Screen -> "Rematch" "Change Characters" "Change Area" "Exit to Main Menu"
+		Options Menu -> Bindings, Resolution Size, Sounds (on/off/increase/decrease), windowed/ full screen, colorblind mode
+		Training Menu / Like Character Select
+			Training Stage -> shows buttons inputs / dmg output / Change vars like hp
+		Credits
+
+Total vs Health Bar - discuss in the future
+
+Work to do:
+
+Tim: Landing Screen - Press any button to load next screen
+Tim/Kynan: Start Menu - Select option from above then load that scene
+Nandan: Options Menu - Scene that has options / doesn't have to work atm but buttons working
+Kynan: Credit Menu - Just of names of people who worked on the game any button to return
+Manoj: Transition between menu screens / loading new scenes
+New peeps: Tutorials :) / Think up environmental hazards
+Twins: keep on chugging on those stage designs
+Tavis: Sounds effects / Gui Design
+Kevin: Finish Character #1 Fat-man
+Griffin: Movement of basic character on basic stage
