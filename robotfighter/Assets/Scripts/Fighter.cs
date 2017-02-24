@@ -18,6 +18,7 @@ public abstract class Fighter : MonoBehaviour {
 	}
 
 	abstract public float get_total_health ();
+	abstract public float get_starting_health ();
 
 	//position checks
 	abstract public bool on_ground ();

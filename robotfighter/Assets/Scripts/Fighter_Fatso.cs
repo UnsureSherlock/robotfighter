@@ -11,6 +11,13 @@ public class Fighter_Fatso : Fighter {
 
 	private bool on_ground_bool = true;
 
+	// health
+	private float head_health = 200;
+	private float body_hleath = 100;
+	private float right_arm_health = 100;
+	private float left_arm_health = 100;
+	private float starting_health;
+
 	private bool invul = false;
 	private float invul_timer = 2f;
 	public SpriteRenderer playerSprite;
@@ -18,6 +25,7 @@ public class Fighter_Fatso : Fighter {
 
 	// Use this for initialization
 	void Start () {
+		starting_health = head_health + body_hleath + right_arm_health + left_arm_health;
 		cSpeed = speed;
 		invul = false;
 		playerRb = GetComponent<Rigidbody> ();
@@ -90,8 +98,12 @@ public class Fighter_Fatso : Fighter {
 		}
 	}
 
+	override public float get_starting_health(){
+		return starting_health;
+	}
+
 	override public float get_total_health (){
-		return 100f;
+		return head_health + body_hleath + right_arm_health + left_arm_health;
 	}
 
 	override public bool on_ground (){
