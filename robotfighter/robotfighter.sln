@@ -1,9 +1,9 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "robotfighter", "Assembly-CSharp-firstpass.csproj", "{28D9316B-7CAF-EC9C-C73E-BBAAAB315BE7}"
+# Visual Studio 2008
+
+Project("{549CDDD0-217F-D0DC-3C25-FD35B0877A21}") = "robotfighter", "Assembly-CSharp-firstpass.csproj", "{28D9316B-7CAF-EC9C-C73E-BBAAAB315BE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "robotfighter", "Assembly-CSharp.csproj", "{094C2B40-69D8-5EBF-3312-BA434E9047C1}"
+Project("{549CDDD0-217F-D0DC-3C25-FD35B0877A21}") = "robotfighter", "Assembly-CSharp.csproj", "{094C2B40-69D8-5EBF-3312-BA434E9047C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
