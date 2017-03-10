@@ -1,0 +1,13 @@
+Game Dev Meeting
+
+Showing off this week:
+Movement
+In game Music
+Camera Movement
+Menu screens?
+
+Things that can be worked on:
+Sound effects
+Combat
+Player 2 movement
+Menu screens?
