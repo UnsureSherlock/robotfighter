@@ -18,7 +18,7 @@ The Game Development Club on UMass Lowell is a club dedicated to fostering a com
 | [Nick Forsyth](https://github.com/nick01720)
 | [Ramon Meza](https://github.com/ramonmeza)
 | [Tim Larocque](https://github.com/timLarocque)
-| [Travis Sivat](https://github.com/Sivat394)
+| [Tavis Sivat](https://github.com/Sivat394)
 
 ## License
 
